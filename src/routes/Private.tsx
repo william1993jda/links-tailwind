@@ -9,7 +9,7 @@ interface PriveteProps {
     children: ReactNode
 }
 
-export function Private({ children }: PriveteProps): any {
+export function Private({ children }: PriveteProps) {
     const [loading, setLoading] = useState(true)
     const [signed, setSigned] = useState(false)
 
