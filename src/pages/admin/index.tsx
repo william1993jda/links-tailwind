@@ -185,6 +185,7 @@ export function Admin() {
                                 <button
                                     className="border border-dashed py-1 p-1 rounded"
                                     onClick={() => handleDeleteLink(link.id)}
+                                    title="Excluir"
                                 >
                                     <FiTrash size={18} color="#FFF" />
                                 </button>
