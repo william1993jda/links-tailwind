@@ -4,6 +4,7 @@ import { ReactNode, useState, useEffect } from "react";
 import { auth } from "../services/firebaseConnection";
 import { onAuthStateChanged } from "firebase/auth";
 import { Navigate } from "react-router-dom";
+import React from "react";
 
 interface PriveteProps {
     children: ReactNode

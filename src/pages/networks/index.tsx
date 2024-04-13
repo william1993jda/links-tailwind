@@ -3,6 +3,7 @@ import { Header } from "../../components/header/header";
 import { Input } from "../../components/input";
 import { db } from "../../services/firebaseConnection";
 import { setDoc, doc, getDoc } from "firebase/firestore";
+import React from "react";
 
 export function Networks() {
     const [facebook, setFacebook] = useState("")

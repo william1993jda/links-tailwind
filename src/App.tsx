@@ -6,6 +6,7 @@ import { Login } from "./pages/login";
 import { Networks } from "./pages/networks";
 import { Private } from "./routes/Private";
 import { ErrorPage } from "./pages/error";
+import React from "react";
 
 const router = createBrowserRouter([
   {

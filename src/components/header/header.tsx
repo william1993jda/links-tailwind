@@ -3,6 +3,7 @@ import { BiLogOut } from "react-icons/bi"
 import { Link } from "react-router-dom"
 import { auth } from "../../services/firebaseConnection"
 import { signOut } from "firebase/auth"
+import React from "react"
 
 export function Header() {
 

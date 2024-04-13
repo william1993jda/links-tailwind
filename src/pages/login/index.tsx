@@ -5,6 +5,7 @@ import { FormEvent, useState } from "react"
 
 import { auth } from "../../services/firebaseConnection";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import React from "react";
 
 export function Login() {
     const [email, setEmail] = useState("william@teste.com");
